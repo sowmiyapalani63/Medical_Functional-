@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Medical Functional</title>
+
+</head>
+
+<body>
+    <div class="container-fluid modal-blur m-0 p-0">
+        
+        <div class="container-fluid homepage-background ">
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light custom-navbar gap-20 flex-direction">
+                <div class="container d-flex justify-content-between navbar-container pl-6 " style="padding-left: 120px;">
+                    <a class="navbar-brand" href="#">
+                        <img src="Assest/MedicalFunc (4).png" class="" alt="MedicalFunc Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" id="navbar-toggler">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                        <ul class="navbar-nav font-14 fw-bold gap-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-muted fw-bold" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-muted fw-bold" href="#product">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-muted fw-bold" href="#pricing">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-muted fw-bold" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-item">
+                                <a class="btn btn-outline-none font-14 fw-bold primary-color Login-btn text-start" href="#">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn text-white primary-background-color font-14 fw-bold pl-1 loginFormPopupbtn" href="#">Join Us <i class="bi bi-arrow-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sidebar" id="sidebar">
+                    <div class="sidebar-header">
+                       
+                        <button type="button" class="btn-close" id="close-sidebar" aria-label="Close"></button>
+                    </div>
+                    <div class="sidebar-body">
+                        <ul class="navbar-nav font-14 fw-bold gap-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-muted fw-bold" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-muted fw-bold" href="#product">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-muted fw-bold" href="#pricing">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-muted fw-bold" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right gap-3 text-start">
+                            <li class="nav-item">
+                                <a class="btn btn-outline-none font-14 fw-bold primary-color" href="#">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn text-white primary-background-color font-14 fw-bold  loginFormPopupbtn" href="#">Join Us <i class="bi bi-arrow-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="backdrop" id="backdrop"></div>
+            </nav>
+            <!-- home page -->
+                 <div class="container-fluid container-max-width mt-5 " id="home" style="max-width: 1440px;">
+
+                <div class="row d-flex justify-content-center align-items-center   gap-20">
+                    <div class="col-md-7 col-lg-7 col-sm-12 ">
+                        <div class="d-flex flex-column gap-2 pl-113 p-10">
+                            <span class="header-tag font-14 fw-bold primary-color responsive-font">Welcome</span>
+                            <span class="headline-sec font-58 font-30 fw-bold">Online <br> Appoinment</span>
+                            <span class="font-16 text-muted responsive-font-subheading lh-30">Medical Functional is
+                                most
+                                focused in
+                                helping you<br>
+                                discover your most beautiful smile
+                            </span>
+                            <div class="">
+                                <button
+                                    class="btn primary-background-color text-white font-14 fw-normal pt-2 pl-5 pr-5 pb-2 rounded responsive-font btn-hover">Get
+                                    Quote Now</button>
+                                <button
+                                    class="btn primary-border  font-14 primary-color pt-2 pl-3 pr-3 pb-2 rounded responsive-font btn-hover">Learn
+                                    More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-5 col-sm-12  right-images pl-5px p-md-r0">
+                        <div class="img-wrapper pl-5px  p-md-r0">
+                            <img src="Assest/Analytics.png" alt="home-right-img-analytics"
+                                class="home-right-img-analytics ">
+                            <img src="Assest/Dashboard.png" alt="home-right-img-dashboard"
+                                class="home-right-img-dashboard ">
+                            <img src="Assest/Group 1.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- our activity -->
+        <section class="ourActivitySec mt-5 mb-5">
+            <div class="container container-max-width">
+                <div class="p-160 padding-0">
+                    <div class="row our-activity-row">
+                        <div class="d-flex flex-column gap-1">
+                            <span class="fw-bold font-14 primary-color responsive-font">Practice Advice</span>
+                            <span class="fw-bold  font-40 responsive-font-heading">Our Activity</span>
+                            <span class="text-muted font-14 fw-normal lh-20 responsive-font">Problems trying to resolve
+                                the
+                                conflict between
+                                the two major realms of Classical physics: Newtonian mechanics </span>
+                        </div>
+                        <span>
+                    </div>
+                    <div class="row our-activity-content  d-flex justify-content-around mt-5 gap-20 justify-center">
+                        <div class="col-md-4 col-lg-4 col-sm-12 col-xl-4 col-xs-12">
+                            <div class="card p-3 card-shadow text-start border-white our-activity-card">
+                                <div class="card-body">
+                                    <div class="icon-container mb-3 ">
+                                        <img src="Assest/005-phone-1.png" alt="Emergency Case" class="icon img-fluid">
+                                    </div>
+                                    <h5 class="card-title font-16 fw-bold responsive-font-subheading lh-24">Emergency
+                                        Case
+                                    </h5>
+                                    <div class="line"></div>
+                                    <p class="card-text font-14 text-muted fw-normal lh-20 responsive-font">The gradual
+                                        accumulation of
+                                        information about</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="card p-3  card-shadow text-start border-white our-activity-card">
+                                <div class="card-body">
+                                    <div class="icon-container mb-3">
+                                        <img src="Assest/heartrate.png" alt="Emergency Case" class="icon img-fluid">
+                                    </div>
+
+                                    <p class="card-title font-16 fw-bold responsive-font-subheading lh-24">Health
+                                        Queries
+                                    </p>
+                                    <div class="line"></div>
+                                    <div>
+                                        <p class="card-text font-14 text-muted fw-normal lh-20 responsive-font">The
+                                            gradual
+                                            accumulation of
+                                            information about</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="card p-3 card-shadow text-start border-white our-activity-card">
+                                <div class="card-body">
+                                    <div class="icon-container mb-3">
+                                        <img src="Assest/web.png" alt="Emergency Case" class="icon img-fluid">
+                                    </div>
+                                    <h5 class="card-title font-16 fw-bold responsive-font-subheading lh-24">Painless
+                                        procedures
+                                    </h5>
+                                    <div class="line "></div>
+                                    <p class="card-text font-14 text-muted fw-normal lh-20 responsive-font">The gradual
+                                        accumulation of
+                                        information about</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+<!-- leading medicine -->
+        <section id="Leading-medicicne mt-5">
+            <div class="container-fluid specilation-bg">
+                <div class="p-160 padding-0">
+                    <div class="container container-max-width">
+                        <div
+                            class="row padding-0 d-flex justify-content-center align-items-center flex-reverse gap-55 ">
+                            <div class="col-md-6 col-sm-12 col-lg-6 d-flex flex-column gap-2">
+                                <div class="line">
+                                </div>
+                                <span class="font-40 fw-bold responsive-font-heading">
+                                    Leading Medicine
+                                </span>
+                                <span class="font-14 text-muted lh-20 responsive-font">
+                                    Problems trying to resolve the conflict between
+                                    the two major realms of Classical physics:
+                                    Newtonian mechanics
+                                </span>
+                                <span class="w-100">
+                                    <a class="btn  primary-color font-14 fw-bold loginFormPopupbtn p-0" href="#">Learn
+                                        More
+                                        <i class="bi bi-chevron-right primary-color fw-bold"></i></a>
+                                </span>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-lg-6">
+                                <div class="img-wrapper">
+                                    <img src="Assest/tech.png" alt="medical-specality" class="img-fluid">
+                                    <img src="Assest/Analytics.png" alt="specilation-graph"
+                                        class="  specilation-graph">
+                                    <img src="Assest/Dashboard.png" alt="dashboard-specaliation"
+                                        class=" dashboard-specaliation w-25">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- specilzation container-->
+        <section class="specilation-sec mt-5" id="product">
+            <div class="container container-max-width ">
+                <div class="p-160 padding-0">
+                    <div class="row specilation-sec-heading">
+                        <div class="d-flex flex-column gap-1">
+                            <span class="fw-bold font-14 primary-color responsive-font">Practice Advice</span>
+                            <span class="fw-bold  font-40 responsive-font-heading">Our Doctors Specialize in you</span>
+                            <span class="text-muted font-14 fw-normal lh-20 responsive-font">Problems trying to resolve
+                                the
+                                conflict between<br>
+                                the two major realms of Classical physics: Newtonian mechanics </span>
+                        </div>
+                    </div>
+                    <div class="row mt-5 gap-20">
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="card card-custom border-0">
+                                <div class="specilation-card-img">
+                                    <img src="Assest/product-cover-1.png" class="card-img-top position-realtive"
+                                        alt="product-cover-1">
+                                    <span class="badge bg-danger position-absolute specilation-card-badge">Sale</span>
+                                    <div class="custom-icons  d-flex gap-3 text-center">
+                                        <i class="bi bi-heart p-2 bg-white text-dark rounded-circle"></i>
+                                        <i class="bi bi-cart p-2 bg-white text-dark rounded-circle"></i>
+                                        <i class="bi bi-share p-2 bg-white text-dark rounded-circle"></i>
+                                    </div>
+
+                                </div>
+                                <div class="card-body d-flex flex-column gap-1">
+                                    <span class="d-flex justify-content-between align-items-center">
+                                        <span class="primary-color font-14 fw-bold responsive-font">English
+                                            Department</span>
+                                        <span class="p-1 bg-dark rounded-pill text-white"><i
+                                                class="bi bi-star-fill text-warning"></i> 4.9</span>
+                                    </span>
+                                    <h5 class="card-title fw-bold font-16 responsive-font-subheading">Graphic Design
+                                    </h5>
+                                    <p class="card-text font-14 fw-normal lh-20 responsive-font">We focus on ergonomics
+                                        and
+                                        meeting you where
+                                        you work. It's only a
+                                        keystroke away.</p>
+                                    <div class="d-flex gap-2">
+                                        <span><i class="bi bi-download"></i></span>
+                                        <span class="second-text-color  fw-bold font-14 responsive-font">15 Sales</span>
+                                    </div>
+                                    <div class="d-flex  gap-2 ">
+                                        <span
+                                            class="second-text-color  fw-bold font-16 responsive-font-subheading">$16.48</span>
+                                        <span
+                                            class="sale-text-green fw-bold font-16 responsive-font-subheading">$6.48</span>
+
+                                    </div>
+                                    <div class="icon-group d-flex gap-3 icon-gap">
+                                        <span class="d-flex gap-2 align-items-center">
+                                            <i class="bi bi-clock text-primary icon-gap"></i><span
+                                                class="text-muted font-12 fw-normal">22hr 30min</span></span>
+                                        <span class="d-flex gap-2 align-items-center icon-gap">
+                                            <i class="bi bi-journal-text text-danger"></i><span
+                                                class="text-muted font-12 fw-normal">64 Lessons</span></span>
+                                        <span class="d-flex gap-2 align-items-center icon-gap">
+                                            <i class="bi bi-bar-chart sale-text-green"></i><span
+                                                class="text-muted font-12 fw-normal">Progress</span></span>
+                                    </div>
+                                    <div class="learn-more-div">
+                                        <button class="btn primary-border primary-color rounded-pill p-2 "><span
+                                                class="responsive-font font-14 fw-bold">Learn More </span><i
+                                                class="bi bi-chevron-right"></i></button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="card card-custom border-0">
+
+                                <div class="specilation-card-img">
+                                    <img src="Assest/product-cover-2.png" class="card-img-top position-realtive"
+                                        alt="product-cover-2">
+                                    <span class="badge bg-danger position-absolute specilation-card-badge">Sale</span>
+                                    <div class="custom-icons  d-flex gap-3 text-center">
+                                        <i class="bi bi-heart p-2 bg-white text-dark rounded-circle"></i>
+                                        <i class="bi bi-cart p-2 bg-white text-dark rounded-circle"></i>
+                                        <i class="bi bi-share p-2 bg-white text-dark rounded-circle"></i>
+                                    </div>
+
+                                </div>
+                                <div class="card-body d-flex flex-column gap-1">
+                                    <span class="d-flex justify-content-between align-items-center">
+                                        <span class="primary-color font-14 fw-bold responsive-font">English
+                                            Department</span>
+                                        <span class="p-1 bg-dark rounded-pill text-white"><i
+                                                class="bi bi-star-fill text-warning"></i> 4.9</span>
+                                    </span>
+                                    <h5 class="card-title fw-bold font-16 responsive-font-subheading">Graphic Design
+                                    </h5>
+                                    <p class="card-text font-14 fw-normal lh-20 responsive-font">We focus on ergonomics
+                                        and
+                                        meeting you where
+                                        you work. It's only a
+                                        keystroke away.</p>
+                                    <div class="d-flex gap-2">
+                                        <span><i class="bi bi-download"></i></span>
+                                        <span class="second-text-color  fw-bold font-14 responsive-font">15 Sales</span>
+                                    </div>
+                                    <div class="d-flex  gap-2 ">
+                                        <span
+                                            class="second-text-color  fw-bold font-16 responsive-font-subheading">$16.48</span>
+                                        <span
+                                            class="sale-text-green fw-bold font-16 responsive-font-subheading">$6.48</span>
+
+                                    </div>
+                                    <div class="icon-group d-flex gap-3 icon-gap">
+                                        <span class="d-flex gap-2 align-items-center icon-gap">
+                                            <i class="bi bi-clock text-primary "></i><span
+                                                class="text-muted font-12 fw-normal">22hr 30min</span></span>
+                                        <span class="d-flex gap-2 align-items-center icon-gap"> 
+                                            <i class="bi bi-journal-text text-danger"></i><span
+                                                class="text-muted font-12 fw-normal">64 Lessons</span></span>
+                                        <span class="d-flex gap-2 align-items-center icon-gap">
+                                            <i class="bi bi-bar-chart sale-text-green"></i><span
+                                                class="text-muted font-12 fw-normal">Progress</span></span>
+                                    </div>
+                                    <div class="learn-more-div">
+                                        <button class="btn primary-border primary-color rounded-pill p-2 "><span
+                                                class="responsive-font font-14 fw-bold">Learn More </span><i
+                                                class="bi bi-chevron-right"></i></button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="card card-custom border-0">
+
+                                <div class="specilation-card-img">
+                                    <img src="Assest/product-cover-3.png" class="card-img-top position-realtive"
+                                        alt="product-cover-3">
+                                    <span class="badge bg-danger position-absolute specilation-card-badge">Sale</span>
+                                    <div class="custom-icons  d-flex gap-3 text-center">
+                                        <i class="bi bi-heart p-2 bg-white text-dark rounded-circle"></i>
+                                        <i class="bi bi-cart p-2 bg-white text-dark rounded-circle"></i>
+                                        <i class="bi bi-share p-2 bg-white text-dark rounded-circle"></i>
+                                    </div>
+
+                                </div>
+                                <div class="card-body d-flex flex-column gap-1">
+                                    <span class="d-flex justify-content-between align-items-center">
+                                        <span class="primary-color font-14 fw-bold responsive-font">English
+                                            Department</span>
+                                        <span class="p-1 bg-dark rounded-pill text-white"><i
+                                                class="bi bi-star-fill text-warning"></i> 4.9</span>
+                                    </span>
+                                    <h5 class="card-title fw-bold font-16 responsive-font-subheading">Graphic Design
+                                    </h5>
+                                    <p class="card-text font-14 fw-normal lh-20 responsive-font">We focus on ergonomics
+                                        and
+                                        meeting you where
+                                        you work. It's only a
+                                        keystroke away.</p>
+                                    <div class="d-flex gap-2">
+                                        <span><i class="bi bi-download"></i></span>
+                                        <span class="second-text-color  fw-bold font-14 responsive-font">15 Sales</span>
+                                    </div>
+                                    <div class="d-flex  gap-2 ">
+                                        <span
+                                            class="second-text-color  fw-bold font-16 responsive-font-subheading">$16.48</span>
+                                        <span
+                                            class="sale-text-green fw-bold font-16 responsive-font-subheading">$6.48</span>
+
+                                    </div>
+                                    <div class="icon-group d-flex gap-3 icon-gap">
+                                        <span class="d-flex gap-2 align-items-center icon-gap">
+                                            <i class="bi bi-clock text-primary "></i><span
+                                                class="text-muted font-12 fw-normal">22hr 30min</span></span>
+                                        <span class="d-flex gap-2 align-items-center icon-gap">
+                                            <i class="bi bi-journal-text text-danger"></i><span
+                                                class="text-muted font-12 fw-normal">64 Lessons</span></span>
+                                        <span class="d-flex gap-2 align-items-center icon-gap">
+                                            <i class="bi bi-bar-chart sale-text-green"></i><span
+                                                class="text-muted font-12 fw-normal">Progress</span></span>
+                                    </div>
+                                    <div class="learn-more-div">
+                                        <button class="btn primary-border primary-color rounded-pill p-2 "><span
+                                                class="responsive-font font-14 fw-bold">Learn More </span><i
+                                                class="bi bi-chevron-right"></i></button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="Pricing mt-5" id="pricing">
+            <div class="container pricing-container container-max-width ">
+                <div class="p-160 padding-0">
+                    <div class="row pricing-heading">
+                        <div class="d-flex flex-column gap-1">
+                            <span class="fw-bold font-14 primary-color responsive-font">Practice Advice</span>
+                            <span class="fw-bold  font-40 responsive-font-heading">Pricing</span>
+                            <span class="text-muted font-14 fw-normal lh-20 responsive-font-subheading">Problems trying
+                                to
+                                resolve
+                                the conflict between<br>
+                                the two major realms of Classical physics: Newtonian mechanics </span>
+                        </div>
+                    </div>
+                    <div class="row pricing-content gap-20 mt-5">
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="card p-2 border-white shadow">
+                                <div class="card-body">
+                                    <div class="mb-4">
+                                        <img src="Assest/circleHeart-.png" alt="circleHeart" class="img-fluid">
+                                    </div>
+                                    <p class="card-title font-24 fw-bold mb-4 responsive-font-heading">FREE</p>
+                                    <p class="card-text font-14 fw-bold lh-24 text-muted mb-4">Organize across all apps
+                                        by
+                                        hand
+                                    </p>
+                                    <p class="fw-bold font-40 primary-color responsive-font-heading">19$</p>
+                                    <p class="font-14 primary-color fw-bold  mb-4 responsive-font-heading">Per Month</p>
+                                    <p class="font-14 fw-normal text-muted mb-4">Slate helps you see how many more days
+                                        you
+                                        need...</p>
+                                    <div class="">
+                                        <a href="#"
+                                            class="btn primary-background-color text-white px-5 btn-hover show-subscription">Try
+                                            for
+                                            free</a>
+                                    </div>
+
+                                    <ul class="list-unstyled mt-3 mb-4 font-14  fw-bold">
+                                        <li class="mb-2 d-flex align-items-center gap-2"> <span class=""><i
+                                                    class="bi bi-check2 select-green-bg text-white p-1 rounded-circle"></i></span><span>Unlimited
+                                                product updates</span></li>
+                                        <li class="mb-2 d-flex align-items-center gap-2"> <i
+                                                class="bi bi-check2 select-green-bg text-white p-1 rounded-circle"></i>Unlimited
+                                            product updates</li>
+                                        <li class="mb-2 d-flex align-items-center gap-2"> <i
+                                                class="bi bi-check2 select-green-bg text-white p-1 rounded-circle"></i>Unlimited
+                                            product updates</li>
+                                        <li class="mb-2 d-flex align-items-center gap-2"> <i
+                                                class="bi bi-check2 bg-muted text-white p-1 rounded-circle"></i>1GB
+                                            Cloud
+                                            storage</li>
+                                        <li class="mb-2 d-flex align-items-center gap-2"><i
+                                                class="bi bi-check2 bg-muted text-white p-1 rounded-circle"></i> Email
+                                            and
+                                            community support</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="card p-2 border-white shadow position-relative">
+
+                                <div class="card-body">
+                                    <div class="mb-4">
+                                        <img src="Assest/circleHeart-.png" alt="circleHeart" class="img-fluid">
+                                    </div>
+                                    <p class="card-title font-24 fw-bold mb-4 responsive-font-heading">FREE</p>
+                                    <p class="card-text font-14 fw-bold lh-24 text-muted mb-4">Organize across all apps
+                                        by
+                                        hand
+                                    </p>
+                                    <p class="fw-bold font-40 primary-color responsive-font-heading">19$</p>
+                                    <p class="font-14 primary-color fw-bold  mb-4 responsive-font-heading">Per Month</p>
+                                    <p class="font-14 fw-normal text-muted mb-4">Slate helps you see how many more days
+                                        you
+                                        need...</p>
+                                    <div class="">
+                                        <a href="#"
+                                            class="btn primary-background-color text-white px-5 btn-hover show-subscription">Try
+                                            for
+                                            free</a>
+                                    </div>
+
+                                    <ul class="list-unstyled mt-3 mb-4 font-14  fw-bold">
+                                        <li class="mb-2 d-flex align-items-center gap-2"> <span class=""><i
+                                                    class="bi bi-check2 select-green-bg text-white p-1 rounded-circle"></i></span><span>Unlimited
+                                                product updates</span></li>
+                                        <li class="mb-2 d-flex align-items-center gap-2"> <i
+                                                class="bi bi-check2 select-green-bg text-white p-1 rounded-circle"></i>Unlimited
+                                            product updates</li>
+                                        <li class="mb-2 d-flex align-items-center gap-2"> <i
+                                                class="bi bi-check2 select-green-bg text-white p-1 rounded-circle"></i>Unlimited
+                                            product updates</li>
+                                        <li class="mb-2 d-flex align-items-center gap-2"> <i
+                                                class="bi bi-check2 bg-muted text-white p-1 rounded-circle"></i>1GB
+                                            Cloud
+                                            storage</li>
+                                        <li class="mb-2 d-flex align-items-center gap-2"><i
+                                                class="bi bi-check2 bg-muted text-white p-1 rounded-circle"></i> Email
+                                            and
+                                            community support</li>
+                                    </ul>
+                                    <div
+                                        class="badge-new position-absolute p-4  badge-alert-color text-white rounded-circle fw-bold font-24 responsive-font">
+                                        New</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                            <div class="card p-2 border-white shadow">
+
+                                <div class="card-body">
+                                    <div class="mb-4">
+                                        <img src="Assest/circleHeart-.png" alt="circleHeart" class="img-fluid">
+                                    </div>
+                                    <p class="card-title font-24 fw-bold mb-4 responsive-font-heading">FREE</p>
+                                    <p class="card-text font-14 fw-bold lh-24 text-muted mb-4">Organize across all apps
+                                        by
+                                        hand
+                                    </p>
+                                    <p class="fw-bold font-40 primary-color responsive-font-heading">19$</p>
+                                    <p class="font-14 primary-color fw-bold  mb-4 responsive-font-heading">Per Month</p>
+                                    <p class="font-14 fw-normal text-muted mb-4">Slate helps you see how many more days
+                                        you
+                                        need...</p>
+                                    <div class="">
+                                        <a href="#"
+                                            class="btn primary-background-color text-white px-5 btn-hover show-subscription">Try
+                                            for
+                                            free</a>
+                                    </div>
+
+                                    <ul class="list-unstyled mt-3 mb-4 font-14  fw-bold">
+                                        <li class="mb-2 d-flex align-items-center gap-2"> <span class=""><i
+                                                    class="bi bi-check2 select-green-bg text-white p-1 rounded-circle"></i></span><span>Unlimited
+                                                product updates</span></li>
+                                        <li class="mb-2 d-flex align-items-center gap-2"> <i
+                                                class="bi bi-check2 select-green-bg text-white p-1 rounded-circle"></i>Unlimited
+                                            product updates</li>
+                                        <li class="mb-2 d-flex align-items-center gap-2"> <i
+                                                class="bi bi-check2 select-green-bg text-white p-1 rounded-circle"></i>Unlimited
+                                            product updates</li>
+                                        <li class="mb-2 d-flex align-items-center gap-2"> <i
+                                                class="bi bi-check2 bg-muted text-white p-1 rounded-circle"></i>1GB
+                                            Cloud
+                                            storage</li>
+                                        <li class="mb-2 d-flex align-items-center gap-2"><i
+                                                class="bi bi-check2 bg-muted text-white p-1 rounded-circle"></i> Email
+                                            and
+                                            community support</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+<!-- testimonial container -->
+        <section class="tetstimonial mt-5 ">
+            <div class="container tetstimonial-container container-max-width">
+                <div class="row tetstimonial-heading">
+                    <div class="d-flex flex-column gap-1">
+                        <span class="fw-bold font-14 spanrimary-color responsive-font">Practice Advice</span>
+                        <span class="fw-bold  font-40 responsive-font-heading">Each and every client is important</span>
+                        <span class="text-muted font-14 fw-normal lh-20 responsive-font">Problems trying to resolve the
+                            conflict between<br>
+                            the two major realms of Classical physics: Newtonian mechanics </span>
+                    </div>
+                </div>
+                <div class="row testimonial-content">
+                    <div class="col-md-4 col-lg-4 col-sm-12">
+                        <div class="card p-5  padding-1 border-white p-0">
+                            <div class="card-body text-center card-max-height">
+                                <div class="5-star-arting">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star text-warning"></i>
+                                </div>
+                                <p class="card-text fw-normal font-14 text-muted responsive-font">Slate helps you see
+                                    how many more days
+                                    you need to work to
+                                    reach your financial
+                                    goal for the month
+                                    and year.</p>
+                                <div class="d-flex flex-row justify-content-center gap-2">
+                                    <img src="Assest/women-testimonial.png" alt="">
+                                    <div>
+                                        <h5 class="fw-bold font-14 primary-color responsive-font">Regina Miles</h5>
+                                        <h6 class="fw-bold font-14 responsive-font">Designer</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-12">
+                        <div class="card p-5 padding-1  border-white p-0 card-max-height">
+                            <div class="card-body text-center">
+                                <div class="5-star-arting">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star text-warning"></i>
+                                </div>
+                                <p class="card-text fw-normal font-14 text-muted responsive-font">Slate helps you see
+                                    how many more days
+                                    you need to work to
+                                    reach your financial
+                                    goal for the month
+                                    and year.</p>
+                                <div class="d-flex flex-row justify-content-center gap-2">
+                                    <img src="Assest/person-testimonail.png" alt="">
+                                    <div>
+                                        <h5 class="fw-bold font-14 primary-color responsive-font">Regina Miles</h5>
+                                        <h6 class="fw-bold font-14 responsive-font">Designer</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-12">
+                        <div class="card p-5  padding-1 border-white p-0 card-max-height">
+                            <div class="card-body text-center">
+                                <div class="5-star-arting">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star text-warning"></i>
+                                </div>
+                                <p class="card-text fw-normal font-14 text-muted responsive-font">Slate helps you see
+                                    how many more days
+                                    you need to work to
+                                    reach your financial
+                                    goal for the month
+                                    and year.</p>
+                                <div class="d-flex flex-row justify-content-center gap-2">
+                                    <img src="Assest/person2Testimonail.png" alt="">
+                                    <div>
+                                        <h5 class="fw-bold font-14 primary-color responsive-font">Regina Miles</h5>
+                                        <h6 class="fw-bold font-14 responsive-font">Designer</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+<!-- join us -->
+        <section class="joinus mt-5" id="contact">
+            <div class="text-center">
+                <div class="container footer-max-width">
+                    <div class="row mb-5 d-flex flex-column gap-1">
+                        <span class="joinus-heading font-14 fw-bold primary-color responsive-font">
+                            Newsletter
+                        </span>
+                        <span class="joiustext font-40 responsive-font-heading">
+                            JOIN US
+                        </span>
+                        <span class="font-14 fw-bold lh-20 text-muted responsive-font">Problems trying to resolve the
+                            conflict
+                            between<br>
+                            the two major realms of Classical physics: Newtonian mechanics </span>
+                    </div>
+                    <div class="row mb-5">
+                        <form>
+                        <div class="input-group form-group">
+                            <input type="email" name='email' class="form-control email"  id="exampleInputEmail1" placeholder="Your Email" required>
+                            <button type="submit" class="btn primary-background-color text-white rounded-0 btn-hover"
+                                id="subscribeButton" onclick=" handleSubscription()">Subscribe</button>
+
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer container -->
+        <section class="footer mt-5">
+            <footer>
+                <div class="container container-max-width py-5">
+                    <div class="row d-flex justify-center gap-20 ">
+                        <div class="col-md-2 col-sm-12 col-lg-2 align-content-center">
+                            <h5 class="font-14 fw-bold responsive-font">Company Info</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">About
+                                        Us</a></li>
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">Carrier</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">We
+                                        are hiring</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-12 col-lg-2 align-content-center">
+                            <h5 class="font-14 fw-bold responsive-font">Legal</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">About
+                                        Us</a></li>
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">Carrier</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">We
+                                        are hiring</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-lg-3 align-content-center">
+                            <h5 class="font-14 fw-bold responsive-font">Features</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">Business
+                                        Marketing</a></li>
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">Watch
+                                        a Demo</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">Customers</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">API</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-12 col-lg-2 align-content-center">
+                            <h5 class="font-14 fw-bold responsive-font">Resources</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">IOS
+                                        &
+                                        Android</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">Watch
+                                        a Demo</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">Customers</a>
+                                </li>
+                                <li><a href="#"
+                                        class="text-decoration-none second-text-color font-14 fw-bold responsive-font">API</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-lg-3 align-content-center">
+                            <h5 class="font-14 fw-bold">Get In Touch</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-decoration-none"><i class="bi bi-telephone primary-color"
+                                            style="width: 24px;height: 30px;"></i><span
+                                            class="second-text-color font-14 fw-bold ms-2 responsive-font">(480)
+                                            555-0103</span></a></li>
+                                <li><a href="#" class="text-decoration-none d-flex"><i
+                                            class="bi bi-geo-alt primary-color"
+                                            style="width: 24px;height: 30px;"></i><span
+                                            class="second-text-color font-14 fw-bold ms-2 responsive-font">Washington
+                                            Ave.
+                                            Manchester,
+                                            Kentucky 39495</span> </a></li>
+                                <li><a href="#" class="text-decoration-none"><i
+                                            class="bi bi-envelope primary-color"></i><span
+                                            class="second-text-color font-14 fw-bold ms-2 responsive-font"
+                                            style=" word-break: break-all;">debra.holt@example.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <hr class="m-0">
+            <div class="container-fluid bg-light">
+                <div class="container container-max-width">
+                    <div class="row  p-2">
+                        <div class="col-md-12 col-lg-12 col-sm-12 d-flex justify-content-between align-items-center">
+                            <span class="font-14 fw-bold second-text-color responsive-font">Made With Love By Figmaland All
+                                Right Reserved</span>
+                            <div class="d-flex gap-3 ">
+                                <a href="#"><i class="bi bi-facebook primary-color"></i></a>
+                                <a href="#"><i class="bi bi-instagram primary-color"></i></a>
+                                <a href="#"><i class="bi bi-twitter primary-color"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="modal fade p-4" id="showSubscriptionModel" tabindex="-1" aria-labelledby="showSubscriptionPopUP"
+        aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-body text-center d-flex gap-2 flex-column">
+                    <button type="button" class="btn-close" aria-label="Close" id="close-x-btn"></button>
+                    <span class="rounded-circle "><i
+                            class="bi bi-check2 text-white select-green-bg p-2 rounded-circle"></i></span>
+                    <p class="fw-bold heading-1 font-16 primary-color ">Thank you!</p>
+                    <p class="text-muted fw-bold heading-1 font-14">Your free trial have been <br>successfully started.
+                        Thanks!
+                    </p>
+                    <button
+                        class="btn primary-background-color text-white pl-5 pr-5 pt-2 pb-2 font-14 fw-bold btn-hover"
+                        id="close-btn">Ok</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="loginFormpopup" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true"
+        data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body  d-flex gap-2 flex-column">
+                    <button type="button" class="btn-close close-x-btn" aria-label="Close"></button>
+                    <div class="myform p-5">
+                        <h6 class="text-center fw-bold font-16 primary-color ">Login Form</h6>
+                        <form name="login-form" action="#" onsubmit="return validation(event)">
+                            <label for="Username" class="form-label font-14">Username</label>
+                            <div class="input-group has-validation">
+                                <input type="text" class="form-control" id="Username"
+                                    aria-describedby="inputGroupPrepend" placeholder="enter your username">
+                                <p class="invalid-feedback text-danger"></p>
+                            </div>
+                            <label for="password" class="form-label font-14">Password</label><br>
+                            <div class="input-group has-validation">
+                                <input type="password" class="form-control" id="password"
+                                    placeholder="enter your password here"><br>
+
+                            </div>
+                            <p class="invalid-password text-danger"></p>
+                            <div class="mt-2">
+                                <button class="btn primary-background-color text-white w-100 btn-hover"
+                                    type="submit">Submit form</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <script src="script.js"></script>
+
+</body>
+</html>
