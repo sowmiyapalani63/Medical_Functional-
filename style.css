@@ -315,7 +315,7 @@ body.modal-open .modal-blur {
 
    
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .navbar-collapse {
       display: none; 
     }
@@ -356,7 +356,7 @@ body.modal-open .modal-blur {
     }
   }
   
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     .sidebar {
       display: none;
     }
